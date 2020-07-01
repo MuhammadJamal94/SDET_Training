@@ -1,0 +1,6 @@
+Browser=chrome
+url1=https://www.google.com/ncr
+url2=https://the-internet.herokuapp.com/
+RegisterationURL=https://www.phptravels.net/register
+LogInURL=https://www.phptravels.net/login
+uriBase=https://cat-fact.herokuapp.com

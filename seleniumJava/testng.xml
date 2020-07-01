@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="automationFrameworkTests.seleniumJava.Listeners"></listener>
+
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Email1_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Email2_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Email3_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Email4_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Mobile1_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Mobile2_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Mobile3_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Mobile4_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Pass1_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Pass2_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Pass3_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Pass4_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Pass5_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Pass6_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Reg_Pass7_Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Registration_1Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Registration_2Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Registration_3Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Registration_4Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Registration_5Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Registration_6Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Registration_7Test"/>
+      <class name="automationFrameworkTests.seleniumJava.Registration_8Test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
